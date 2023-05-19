@@ -1,4 +1,4 @@
 function getFormvalue() {
-    alert(fname);
+    alert(fname+" "+lname);
 
 }
