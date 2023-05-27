@@ -1,7 +1,7 @@
-let firstname=document.getElementById("fname").value;
-let lastname=document.getElementById("lname").value;
+let firstname=document.getElementById("fname");
+let lastname=document.getElementById("lname");
 function getFormvalue() {
     
-	alert(firstname + " " +lastname);
+	alert(firstname.value + " " +lastname.value);
 
 }
